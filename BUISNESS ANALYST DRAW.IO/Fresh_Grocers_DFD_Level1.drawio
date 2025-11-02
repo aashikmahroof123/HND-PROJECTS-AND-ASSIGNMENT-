@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Fresh Grocers - Level 1 DFD" id="freshgrocersdfd1">
+    <mxGraphModel dx="827" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- External Entities -->
+        <mxCell id="cust" value="Customer" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="agent" value="Delivery Agent" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="operator" value="Phone Operator" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="320" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="sms" value="Email/SMS Gateway" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="320" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Processes -->
+        <mxCell id="register" value="1. Registration" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="login" value="2. Login" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="updateloc" value="3. Update Location" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="placeorder" value="4. Place Order" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="assignagent" value="5. Assign Agent" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="manualorder" value="6. Manual Order Entry" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="rating" value="7. Rate Delivery Agent" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Stores -->
+        <mxCell id="d1" value="D1: User Accounts" style="shape=document;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="d2" value="D2: Agent Locations" style="shape=document;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="d3" value="D3: Orders" style="shape=document;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="160" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="d4" value="D4: Agent Assignments" style="shape=document;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="220" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="d5" value="D5: Ratings" style="shape=document;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="140" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
